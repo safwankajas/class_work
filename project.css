@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu',sans-serif;
+    background: #000;
+    color: #fff;
+
+
+}
+.container{
+    position: absolute;
+    margin-top: 80px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 320px;
+    height: 380px;
+    border-radius: 5px;
+    border: 2px solid #a80404ce;
+}
+.container h1
+{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.container .rl
+{
+    position: relative;
+   display: block;
+   margin-left: 15px;
+    padding-left: 20px;
+
+
+}
+.container .rl  #rl
+{
+    margin-right: 10px;
+    padding-left: 5px;
+    width: 30px;
+}
+.container .rl  #name
+{
+    margin-right: 10px;
+    padding-left: 5px;
+    width: 100px;
+}
+
+.container h2
+{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #e7eeed;
+    transition: .5s;
+
+}
+
+.container .btn
+{
+
+    margin-bottom: 50px;
+   background: #e7eeed;
+   border-radius: 10px;
+   color: #a80404;
+   font-weight: 700;
+    padding: 10px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 80px;
+     cursor: pointer;
+    text-align: center;
+}
+.container .btn:hover
+{
+    background: none;
+    border:1px solid #a80404;
+    color: #fff;
+}
+.sheet
+{
+    position: relative;
+    border-top:1px solid rgba(255, 255, 255, 0.397) ;
+    margin-top: 80vh;
+    margin-left:25%;
+    width: 50%;
+    text-align: center;
+}
+.sheet table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+.sheet table th{
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 1px solid #e7eeed;
+}
+.sheet table  .n{
+    padding-right: 150px;
+
+
+}
+.sheet table td{
+    border: 1px solid #e7eeed;
+}
+@media(max-width:480px)
+{
+    .sheet{
+        margin-top:90vh;
+        margin-left: -10px;
+        width: 100%;
+   }
+}
+
+@media(max-width:370px)
+{
+    .container{
+       
+        width: 90%;
+    }
+    .container h1
+    {
+       font-size: 12px;
+    }
+    .container .rl  #rl
+{
+    margin-bottom: 20px;
+    margin-right: 150px;
+
+}
+.sheet{
+     margin-top:90vh;
+     margin-left: 0;
+     width: 100%;
+}
+}
